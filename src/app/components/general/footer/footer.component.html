@@ -1,0 +1,30 @@
+<footer>
+    <div [@animateFooter]>
+        <ul class="footer-left-bar d-none d-md-block">
+            <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_github", "footer", "github")'
+                    href="https://github.com/prathap026" target='_blank'>
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_linkedin", "footer", "github")'
+                    href="https://www.linkedin.com/in/prathap-shanmugam-362b69235" target='_blank'>
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="footer-right-bar d-none d-md-block">
+            <a  href="mailto:prathap026prathap@gmail.com">prathap026prathap&#64;gmail.com </a>
+        </div>
+    </div>
+
+    <div class="footer-credits text-center">
+        <a (click)='analyticsService.sendAnalyticEvent("click_github", "footer", "click")'
+            href="https://github.com/prathap026" target="_blank" rel="nofollow noopener noreferrer">
+            <div>Designed & Built(Angular) by Prathap S</div>
+        </a>
+    </div>
+
+</footer>
+

@@ -1,0 +1,47 @@
+<section class="section" id="contact">
+  <div class="container contact">
+    <div class="section-box">
+      <div class="mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <h3 class="contact-pre-title big-subtitle">
+          {{ "Contact.Pretitle" | translate }}
+        </h3>
+        <h4 class="e-font contact-title big-title">
+          {{ "Contact.Title" | translate }}
+        </h4>
+      </div>
+      <h4>
+        <p data-aos="fade-up" data-aos-duration="1000">
+          {{ "Contact.Content" | translate }}
+        </p>
+      </h4>
+
+      <!-- Email Contact Button
+      <div class="mt-5">
+        <a
+          (click)="analyticsService.sendAnalyticEvent('click_send_mail', 'contact', 'email')"
+          href="mailto:prathap026prathap@gmail.com"
+          target="_blank"
+          class="main-btn"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          {{ "Contact.Btn" | translate }}
+        </a>
+      </div> -->
+
+      <!-- WhatsApp Contact Button -->
+      <div class="mt-3">
+        <a
+          (click)="analyticsService.sendAnalyticEvent('click_whatsapp', 'contact', 'whatsapp')"
+          href="https://wa.me/919345749329"
+          target="_blank"
+          class="whatsapp-btn"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
