@@ -97,11 +97,11 @@ class AppComponent {
     this.translateService = translateService;
     this.location = location;
     this.languageService = languageService;
-    this.title = 'Sivaraaj';
+    this.title = 'prathap';
   }
   ngOnInit() {
     this.languageService.initLanguage();
-    this.titleService.setTitle("Sivaraaj");
+    this.titleService.setTitle("prathap");
     this.metaService.addTags([{
       name: 'keywords',
       content: 'Software, Developer'
@@ -1028,7 +1028,7 @@ class AboutComponent {
       selectors: [["app-about"]],
       decls: 47,
       vars: 6,
-      consts: [["id", "about", 1, "section", "about"], [1, "container"], [1, "section-box"], ["data-aos", "fade-up", 1, "about-title"], [1, "section-title"], [1, "n-section-title"], [1, "row"], [1, "col-12", "col-md-6", "mb-4", "mb-md-0"], [1, "about-description"], ["data-aos", "fade-up", "data-aos-duration", "1000", 3, "innerHTML", 4, "ngFor", "ngForOf"], ["data-aos", "fade-up", 1, "skills-list"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "skill-element"], [1, "underline"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "col-12", "col-md-6", "mt-4", "mt-md-0", "text-center"], [1, "about-img-container"], ["src", "assets/images/prathap.jpeg", "alt", "sivaraaj", 1, "rounded", 2, "width", "auto", "height", "auto", "margin-left", "0%", "margin-top", "0%", 3, "click"], ["data-aos", "fade-up", "data-aos-duration", "1000", 3, "innerHTML"]],
+      consts: [["id", "about", 1, "section", "about"], [1, "container"], [1, "section-box"], ["data-aos", "fade-up", 1, "about-title"], [1, "section-title"], [1, "n-section-title"], [1, "row"], [1, "col-12", "col-md-6", "mb-4", "mb-md-0"], [1, "about-description"], ["data-aos", "fade-up", "data-aos-duration", "1000", 3, "innerHTML", 4, "ngFor", "ngForOf"], ["data-aos", "fade-up", 1, "skills-list"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "skill-element"], [1, "underline"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "col-12", "col-md-6", "mt-4", "mt-md-0", "text-center"], [1, "about-img-container"], ["src", "assets/images/prathap.jpeg", "alt", "prathap", 1, "rounded", 2, "width", "auto", "height", "auto", "margin-left", "0%", "margin-top", "0%", 3, "click"], ["data-aos", "fade-up", "data-aos-duration", "1000", 3, "innerHTML"]],
       template: function AboutComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "section", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3)(4, "h3", 4);

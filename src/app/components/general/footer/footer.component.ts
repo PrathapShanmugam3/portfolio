@@ -33,7 +33,7 @@ export class FooterComponent implements OnInit {
   
   // openGmail() {
 
-  //   const recipient = 'sivaraaj.kr.ece@gmail.com'; 
+  //   const recipient = 'prathap.kr.ece@gmail.com'; 
   //   const mailtoURL = `https://mail.google.com/mail/?view=cm&fs=1&to=${recipient}`;
   //   window.open(mailtoURL, '_blank');
 
