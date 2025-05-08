@@ -77,20 +77,17 @@
       ]
     },
     {
-      "Title": "E-Commerce API",
-      "Description": "Built a scalable and secure REST API for an <span class='underline'>E-Commerce Platform</span>, enabling features like product management, order processing, and payment integration. Developed using <span class='underline'>Spring Boot</span> and secured with role-based authentication.",
+      "Title": "Simple Calculator Web App",
+      "Description": "Developed a <span class='underline'>fully responsive calculator </span> application using Angular and Bootstrap, ensuring seamless functionality across devices.Designed a clean and <span class='underline'>user-friendly </span>interface with intuitive button layout and real-time input feedback.Focused on responsive design principles to provide consistent user experience on desktops, tablets, and mobile devices.",
       "imgs": [
-        "assets/images/ecom1.png",
-        "assets/images/ecom2.png",
-        "assets/images/ecom3.png"
+        "assets/images/calculator.png",
+        "assets/images/calculator1.png",
+        "assets/images/calculator2.png"
       ],
       "Technologies": [
-        "Spring Boot",
-        "Java",
-        "MySQL",
-        "Swagger",
-        "Postman",
-        "Docker"
+        "Angular",
+        "css",
+        "Bootstrap"
       ]
     }
   ],
